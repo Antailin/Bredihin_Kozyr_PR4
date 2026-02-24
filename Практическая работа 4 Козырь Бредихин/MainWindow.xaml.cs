@@ -38,7 +38,7 @@ namespace Практическая_работа_4_Козырь_Бредихин
             => MainFrame.Navigate(_page2);
 
         private void BtnPage3_Click(object sender, RoutedEventArgs e)
-            => MainFrame.Navigate(_page3);
+            => MainFrame.Navigate(_page3); 
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
