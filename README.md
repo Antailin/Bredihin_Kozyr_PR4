@@ -4,6 +4,8 @@
 методом "белого ящика".
 ## Разработчики группы 3ИСИП-123: Бредихин, Козырь.
 ## Вариант: 3.
+<img width="362" height="63" alt="Снимок экрана 2026-02-24 в 19 10 08" src="https://github.com/user-attachments/assets/482ceff6-00df-4383-b493-73c4895bb7ea" />
+<img width="362" height="63" alt="Снимок экрана 2026-02-24 в 19 10 08" src="https://github.com/user-attachments/assets/482ceff6-00df-4383-b493-73c4895bb7ea" />
 
 ### Приложение включает.
 
