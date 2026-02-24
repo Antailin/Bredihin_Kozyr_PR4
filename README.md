@@ -4,11 +4,11 @@
 методом "белого ящика".
 ## Разработчики группы 3ИСИП-123: Бредихин, Козырь.
 ## Вариант: 3.
-1) <img width="362" height="63" alt="Снимок экрана 2026-02-24 в 19 10 08" src="https://github.com/user-attachments/assets/482ceff6-00df-4383-b493-73c4895bb7ea" />
+ <img width="362" height="63" alt="Снимок экрана 2026-02-24 в 19 10 08" src="https://github.com/user-attachments/assets/482ceff6-00df-4383-b493-73c4895bb7ea" />
 
-2) <img width="321" height="100" alt="Снимок экрана 2026-02-24 в 19 11 05" src="https://github.com/user-attachments/assets/f90c4a07-bb6a-414c-aa7e-caa4988cd146" />
+ <img width="321" height="100" alt="Снимок экрана 2026-02-24 в 19 11 05" src="https://github.com/user-attachments/assets/f90c4a07-bb6a-414c-aa7e-caa4988cd146" />
 
-3) <img width="246" height="49" alt="Снимок экрана 2026-02-24 в 19 11 15" src="https://github.com/user-attachments/assets/41a76e84-e129-4609-9de9-711de1981592" />
+ <img width="246" height="49" alt="Снимок экрана 2026-02-24 в 19 11 15" src="https://github.com/user-attachments/assets/41a76e84-e129-4609-9de9-711de1981592" />
 
 
 ### Приложение включает.
