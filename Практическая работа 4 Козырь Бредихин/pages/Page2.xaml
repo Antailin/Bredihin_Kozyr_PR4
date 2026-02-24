@@ -1,0 +1,91 @@
+﻿<Page x:Class="Практическая_работа_4_Козырь_Бредихин.pages.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Практическая_работа_4_Козырь_Бредихин.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+    <StackPanel Background="#D4D0C8" Margin="0">
+
+        <Border Background="White" BorderBrush="#999999" BorderThickness="1"
+                Margin="10,10,10,8" Padding="20,12" Height="88" Width="251">
+            <Image Source="C:\Users\antai\source\repos\Практическая работа 4 Козырь Бредихин\Практическая работа 4 Козырь Бредихин\Images\formula2.png"
+                   Stretch="Uniform"
+                   MaxHeight="90"
+                   HorizontalAlignment="Left"
+                   ToolTip="Формула варианта 3"/>
+    </Border>
+
+    <Grid Margin="10,4,10,4" Width="260">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="x"
+                   VerticalAlignment="Center" HorizontalAlignment="Right"
+                   Padding="0,0,6,0" FontSize="13"
+                   ToolTip="Значение переменной x"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="TbX2"
+                     VerticalAlignment="Center" Padding="2,1" FontSize="13"
+                     ToolTip="Введите значение x"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="y"
+                   VerticalAlignment="Center" HorizontalAlignment="Right"
+                   Padding="0,0,6,0" FontSize="13"
+                   ToolTip="Значение параметра m"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TbY2"
+                     VerticalAlignment="Center" Padding="2,1" FontSize="13"
+                     ToolTip="Введите значение m"/>
+
+        <RadioButton Grid.Row="2" Grid.Column="1" x:Name="RbSh"
+                         Content="sh(x)" IsChecked="True"
+                         VerticalAlignment="Center" FontSize="13"
+                         ToolTip="f(x) = sinh(x) — гиперболический синус"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="Вычислить"
+                    VerticalAlignment="Center" FontSize="13"
+                    Click="BtnCalculate2_Click"
+                    ToolTip="Вычислить значение функции j"/>
+
+        <RadioButton Grid.Row="3" Grid.Column="1" x:Name="RbX2"
+                         Content="x^2"
+                         VerticalAlignment="Center" FontSize="13"
+                         ToolTip="f(x) = x²"/>
+
+        <RadioButton Grid.Row="4" Grid.Column="1" x:Name="RbEx"
+                         Content="e^x"
+                         VerticalAlignment="Center" FontSize="13"
+                         ToolTip="f(x) = eˣ"/>
+        <Button Grid.Row="4" Grid.Column="3" Content="Очистить"
+                    VerticalAlignment="Center" FontSize="13"
+                    Click="BtnClear2_Click"
+                    ToolTip="Очистить все поля"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Ответ"
+                   VerticalAlignment="Center" HorizontalAlignment="Right"
+                   Padding="0,0,6,0" FontSize="13"
+                   ToolTip="Результат вычисления"/>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="TbResult2"
+                     VerticalAlignment="Center" Padding="2,1" FontSize="13"
+                     IsReadOnly="True"
+                     ToolTip="Результат вычисления функции j"/>
+    </Grid>
+
+    <TextBlock x:Name="ErrorText2"
+                   Foreground="Red" TextWrapping="Wrap"
+                   Margin="10,4,10,4" FontSize="12"/>
+
+    </StackPanel>
+
+</Page>
