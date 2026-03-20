@@ -114,4 +114,4 @@ Code-behind страниц (Page1–Page3)  делегирует расчёты 
 - Фреймворк: .NET Framework 4.7.2
 - UI-фреймворк: WPF
 - Тестовый фреймворк: MSTest (NuGet: MSTest.TestFramework 2.2.10)
-- IDE: Visual Studio 2019 / 2022
+- IDE: Visual Studio 2019 и новее
